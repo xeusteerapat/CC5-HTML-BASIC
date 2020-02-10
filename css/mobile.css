@@ -1,0 +1,79 @@
+@media (max-width: 768px) {
+  #showcase .container {
+    display: grid;
+    grid-gap: 2rem;
+  }
+  #photo {
+    padding-left: 1rem;
+  }
+
+  #skills-sets .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 1rem 0 1rem;
+  }
+
+  .skill-list ul li {
+    text-align: left;
+    list-style: none;
+    font-size: 18px;
+    color: #7c7c7c;
+    padding: 0 0 0.75rem 0.75rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    margin: 0 auto;
+  }
+
+  .py-1 {
+    padding: 3rem 0 3rem 0;
+  }
+
+  header .container {
+    display: flex;
+    /* flex-wrap: wrap; */
+    padding: 20px;
+  }
+
+  header .menu {
+    float: right;
+  }
+
+  .menu {
+    display: none;
+  }
+  .toggle {
+    display: block;
+    color: white;
+    justify-content: flex-end;
+  }
+
+  #showcase .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #photo {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  #describe {
+    display: grid;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  #skills-sets .container {
+    max-width: 600px;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0 2rem 0 2rem;
+  }
+
+  .card {
+    padding: 0 2rem 0 2rem;
+  }
+}
