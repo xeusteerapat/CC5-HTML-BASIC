@@ -46,18 +46,8 @@ nav {
   padding-right: 2rem;
 }
 
-/* .menu ul li:hover {
-  border-bottom: 2px solid #fff;
-  background: #fff;
-  padding: 20px;
-} */
-
 #navbar .menu ul {
   text-align: right;
-}
-
-.toggle {
-  display: none;
 }
 
 /* Showcase */
@@ -75,7 +65,7 @@ nav {
   width: 240px;
   height: 240px;
   border-radius: 5px;
-  box-shadow: 10px 10px 5px var(--secondary-color);
+  box-shadow: 5px 5px 5px var(--secondary-color);
 }
 
 #showcase h2 {
@@ -127,7 +117,7 @@ nav {
   margin: 0;
   background: #f1f1f1;
   border-radius: 5px;
-  box-shadow: 10px 10px 5px #aaaaaa;
+  box-shadow: 5px 5px 5px #aaaaaa;
 }
 
 .card h3 {
