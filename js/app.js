@@ -14,6 +14,11 @@ const getSudentsData = () => {
         tempElement += `<td><a>${ele.Website}</a></td>`;
       });
       document.getElementById("data").innerHTML = tempElement;
+
+      const aTag = document.querySelectorAll("a");
+      aTag.forEach(el => {
+        el.href = el.innerText;
+      });
     });
 };
 
