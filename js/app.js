@@ -15,8 +15,9 @@ const getSudentsData = () => {
       });
       document.getElementById("data").innerHTML = tempElement;
 
-      const aTag = document.querySelectorAll("a");
-      aTag.forEach(el => {
+      const table = document.querySelector("table");
+      const friendsLink = table.querySelectorAll("a");
+      friendsLink.forEach(el => {
         el.href = el.innerText;
       });
     });
